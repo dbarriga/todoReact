@@ -1,38 +1,78 @@
-.App {
+body {
+  background-color: #469fbc;
   text-align: center;
+  padding-top:100px;
+  font-family: Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: white;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.yellow {
+  color: yellow;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+ul {
+  width: 80%;
+  list-style: none;
+  padding: 0 10%;
+}
+
+li {
+  width: 100%;
+  background-color: #6ab7ca;
+  height:30px;
+  padding:20px 20px 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: #275d6e 2px solid;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right {
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left {
+  float: left;
+}
+
+.delete {
+  cursor: pointer;
+  color: #275d6e;
+  font-weight: bold;
+}
+.list_text {
+  cursor: pointer;
+  float:left;
+  font-weight: bold;
+}
+.todo_input {
+  width:80%;
+  height:35px;
+  border-radius: 5px;
+}
+
+.button_add{
+  width:50px;
+  height:30px;
+  border-radius: 5px;
+  margin-left:5px;
+  background-color: #275d6e;
+  color: #469fbc;
+  border: none;
+}
+
+.complete {
+  background-color: aquamarine;
+  color: black;
 }
